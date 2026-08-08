@@ -1,0 +1,4 @@
+1) switch e kano variable declare korte dei na.
+2) scanf e "%.3f" likhle error kano ase.
+3) 'a'/2 --> er data type ki hobe. --> int
+4) je kono single digit no. ki harshad bole count hobe.
