@@ -1,3 +1,9 @@
+/*
+   7
+  765
+ 76543
+7654321
+*/
 #include <stdio.h>
 void main()
 {
