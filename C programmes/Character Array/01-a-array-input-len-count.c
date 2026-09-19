@@ -8,5 +8,6 @@ void main()
     gets(x);
     while (x[i] != '\0') // including space
         i++;
-    printf("String lenght = %d", i);
+    printf("String = %s", x);
+    printf("\nString lenght = %d", i);
 }

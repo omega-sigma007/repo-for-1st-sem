@@ -14,13 +14,11 @@ void main()
             a[c] = v;
             c++;
             a[c] = -1;
-            a[c];
             c++;
         }
         else
         {
             a[c] = v;
-            a[c];
             c++;
         }
     }

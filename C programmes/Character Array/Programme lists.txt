@@ -1,0 +1,31 @@
+Character Array :-
+
+1. WAP to take into a character array and print the array.
+2. Count the length of a string.
+3. Reverse a string.
+4. Copy a string from another string.
+5. Concatenate 2 strings.
+6. Compare 2 string.
+7. WAP to check whether a string is palindrome or not.
+--------------------------------------------
+*Acromatic String :-*
+
+1. Input → Aily Sett
+Output → A.S.
+2. Input → Aily Sett
+Output → A.SETT
+3. Input → Aily Kumari Sett
+Output → SETT AILY KUMARI
+4. Input → Aily Sett
+Output → SETT KUMARI AILY
+--------------------------------------------
+8. WAP to convert lower to higher case.
+9. WAP to convert higher to lower case.
+10. WAP to count how many vowel,consonant and space present within a string.
+11.  WAP to store vowel and consonant in two separate array.
+12. WAP to print alternate letter within a string.(Odd)
+13. WAP to print alternate letter within a string.(Even)
+14. Input → Zebra
+Output → Afcsd
+15. Count frequency of a letter within a string.
+16. Count frequency of a word within a string.

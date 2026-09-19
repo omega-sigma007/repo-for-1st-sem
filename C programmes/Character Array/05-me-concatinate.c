@@ -2,7 +2,7 @@
 void main()
 {
     int i, j, f, c = 0;
-    char x[200], y[200], concat[400];
+    char x[200], y[200], concat[400]; // me
     printf("enter the 1st string = ");
     gets(x);
     printf("enter the 2nd string = ");
