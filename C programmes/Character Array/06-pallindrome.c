@@ -8,7 +8,7 @@ void main()
     for (i = 0; x[i] != '\0'; i++, c++)
         printf("%c", x[i]);
     c--;
-    for (i = 0, j = c; i <= c / 2; i++, j--)
+    for (i = 0, j = c; i <= j; i++, j--)
     {
         if (x[i] != x[j])
         {
