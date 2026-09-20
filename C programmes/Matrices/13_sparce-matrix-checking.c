@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
 void main()
 {
-    int r, c, i, j;
+    int r, c, i, j, count = 0;
     printf("Enter the row & column = ");
     scanf("%d%d", &r, &c);
     int A[r][c];
@@ -14,6 +15,7 @@ void main()
             scanf("%d", &A[i][j]);
         }
     }
+
     // Print A
     for (i = 0; i < r; i++)
     {
@@ -27,8 +29,13 @@ void main()
             if (A[i][j] / 10 == 0 && A[i][j] >= 0)
                 printf(" ");
             printf(" %d ", A[i][j]);
+
+            // Process
+            if (A[i][j] == 0 || A[i][j] == 1)
+                count++;
         }
         printf("]");
         printf("\n");
     }
+    printf("Matrix A is%s a sparce matrix", (2 * count < (r * c)) ? " not" : "");
 }

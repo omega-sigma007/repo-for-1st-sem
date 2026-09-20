@@ -11,7 +11,7 @@
 10. WAP to check whether a matrix is symmetric or not.
 11. WAP to check whether a matrix is skew symmetric or not.
 *12. WAP to check whether a matrix is NULL or not.
-13. WAP to check whether a matrix is sparse or not.
+*13. WAP to check whether a matrix is sparse or not.
 14. WAP to check whether a matrix is identity or not.
 15. WAP to check whether a matrix is orthogonal or not.
 16. WAP to print the determinant of the matrix.
