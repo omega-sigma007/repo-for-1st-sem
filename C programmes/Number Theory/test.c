@@ -51,4 +51,4 @@ void main()
     else
         printf("%d is not a Smith Number.", x);
 }
-        */
+*/

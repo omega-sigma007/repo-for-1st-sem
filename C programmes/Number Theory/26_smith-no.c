@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     int i, n, x, temp, sod = 0, sof = 0;
