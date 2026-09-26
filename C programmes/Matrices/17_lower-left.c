@@ -36,9 +36,9 @@ void main()
             printf("\n");
         }
         printf("Lower left Triangle :-\n");
-        for (i = 1; i < r; i++)
+        for (i = 0; i < r; i++)
         {
-            for (j = 0; j < i; j++)
+            for (j = 0; j <= i; j++)
                 printf("%d ", A[i][j]);
             printf("\n");
         }
