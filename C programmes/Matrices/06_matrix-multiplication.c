@@ -51,21 +51,32 @@ int main()
         else if (k % 2 == 1)
             printf("    ");
         // controlling the row overflow
-
-        printf("[");
-        for (j = 0; j < ((k % 2 != 0) ? n1 : n2); j++)
+        int f = 0;
+        if (i >= m1 && k % 2 == 1)
         {
-            // Controlling digit spacing problem
-            if (k % 2 != 0)
-            {
-                for (temp = a[i][j], width = 0; temp > 0; temp /= 10)
-                    width++;
-                for (int x = 1; x <= max - width; x++)
-                    printf(" ");
-            }
-            printf(" %d ", ((k % 2 != 0) ? a[i][j] : b[i][j]));
+            for (int sp = 0; sp < max * n1 + 2 * (n1 + 1) + 9; sp++)
+                printf(" ");
+            f = 1;
         }
-        printf("]     \t");
+        if (!f)
+        {
+            printf("[");
+            // Accessing each element within matrix a & b and printing
+            for (j = 0; j < ((k % 2 != 0) ? n1 : n2); j++)
+            {
+                // Controlling digit spacing problem for matrix a
+                if (k % 2 != 0)
+                {
+                    for (temp = a[i][j], width = 0; temp > 0; temp /= 10)
+                        width++;
+                    for (int x = 1; x <= max - width; x++)
+                        printf(" ");
+                }
+                // Printing each element
+                printf(" %d ", ((k % 2 != 0) ? a[i][j] : b[i][j]));
+            }
+            printf("]     \t");
+        }
         if (i == m2 / 2 && f2 == 0)
         {
             printf("B = ");
