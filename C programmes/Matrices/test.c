@@ -1,6 +1,8 @@
 #include <stdio.h>
-int main()
+#include <stdlib.h>
+int main(void)
 {
+    // goto char_declaration;
     // Understanding multilevel nesting loops.
     int i, j, k, l, m, n;
     for (i = 1; i <= 5; i++)
@@ -17,5 +19,15 @@ int main()
         }
         printf("\n");
     }
-    return 0;
+char_declaration:
+    {
+
+        char s[] = "Hello Abir";
+        printf("%s", s);
+        // exit('y');
+    }
+    {
+        printf("\nHello");
+    }
+    return printf("\nHi");
 }
