@@ -1,0 +1,20 @@
+ // ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉
+
+struct line
+{
+    int m;
+    int c;
+}l1,l2;
+struct point
+{
+    float x;
+    float y;
+};
+
+Required Formulae :-
+* y = m₁x + c₁  :L1
+* y = m₂x + c₂  :L2
+ 
+int a,b;
+arun :-
+{<<phy>>,<<chem>>,<<math>>,<<total>>,<<per>>}

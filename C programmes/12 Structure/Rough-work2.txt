@@ -1,0 +1,15 @@
+struct bank
+{
+    int AccNo;
+    char name[20];
+    int bal;
+} customer[100];
+
+▶ Transaction will be done through AccNo.
+1 -> deposite
+    only if AccNo matched
+
+0 -> withdraw
+    must match the acc no;
+    after withdrawl remaining balance must greater than 1k
+        otherwise it must show insufficient balance.
