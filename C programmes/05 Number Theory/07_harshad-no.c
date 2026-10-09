@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>//sum of digits divids no.
 void main()
 {
     int n, x, sq, rem, s = 0;

@@ -5,7 +5,7 @@ void main()
     printf("Enter n = ");
     scanf("%d", &n);
     // Reverse
-    for (x = n; n > 0; n = n / 10)
+    for (x = n; n != 0; n = n / 10)
     {
         rev = rev * 10 + n % 10;
     }

@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> //sum of dig -> some of dig = 1
 void main()
 {
     int n, x, c = 1, rem, s = 0;
@@ -8,7 +8,7 @@ void main()
         s = s + n % 10;
     n = s;
     s = 0;
-    for (x = n; n > 0; n = n / 10)
+    for (; n > 0; n = n / 10)
         s = s + n % 10;
     if (s == 1)
         printf("%d is a majic no.", x);
