@@ -5,7 +5,7 @@ int main()
     // fputs(*char,*FILE)
     //
     FILE *fp;
-    fp = fopen("abc.docx", "a");
+    fp = fopen("abcd.docx", "a");
 
     char ch;
     printf("String = ");
