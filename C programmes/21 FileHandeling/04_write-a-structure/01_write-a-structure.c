@@ -6,17 +6,25 @@ typedef struct
 } person;
 int main()
 {
-    person per[10];
+    int n;
+    printf("Enter no. rows = ");
+    scanf("%d", &n);
+    person per[n];
     FILE *fp;
     fp = fopen("person.docx", "a");
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < n; i++)
     {
         printf("Name = ");
         gets(per[i].nm);
+        fputs(per[i].nm, fp);
 
         printf("Age = ");
         scanf("%d", &per[i].age);
+        fprintf(fp, per[i].age);
+
         printf("Blood Group = ");
         gets(per[i].bg);
+        fputs(per[i].bg, fp);
     }
+    fclose(fp);
 }
