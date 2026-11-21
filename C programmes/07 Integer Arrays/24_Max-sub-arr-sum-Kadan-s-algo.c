@@ -7,7 +7,7 @@ step 2: The momment we got our total sum -ve reset the surrent sum to 0
 int main()
 {
     int i = 0, curS = 0, maxS, n = 7;
-    int a[] = {3, -4, 5, 4, -1, 7, -8};
+    int a[] = {-53, -14, 5, 4, -11, 7, -8};
 
     for (maxS = a[0]; i < n; i++)
     {
