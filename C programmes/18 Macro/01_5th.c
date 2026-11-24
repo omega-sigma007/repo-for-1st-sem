@@ -1,10 +1,14 @@
 // fact calculation
 #include <stdio.h>
-#define fact(x, f)               \
-    for (int i = 1; i <= x; i++) \
+#define fact                            \
+    for (int f = 1, i = 1; i <= x; i++) \
         f *= i;
 // #define fact(x) x *fact(x - 1)
 int main()
 {
-    printf("%d ");
+    int x, f;
+    printf("x = ");
+    scanf("%d", &x);
+    fact;
+    printf("%d! = %d", x, f);
 }
